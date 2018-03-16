@@ -1,0 +1,29 @@
+/* Ref:  http://www.w3schools.com/css/css_syntax.asp */
+body,html{
+    height: 100%;
+}
+
+body { /* Matches elements with id=SimpleDive */
+	background-color:darkorange;
+    color: whitesmoke;
+    text-align: center;
+    margin: 5%;
+    
+}
+
+h3 { /* Matches elements with h3 tag */
+	color: white;
+    text-align: center;
+    
+}
+
+#SimpleDiv { /* Matches element with id=SimpleDiv */
+	background-color: gray;
+    text-align: center;
+    margin: 5%;
+	
+	color:antiquewhite;
+	border-style:dotted;
+    border-width: 5px;
+	border-color: skyblue;
+}
